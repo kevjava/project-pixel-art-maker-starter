@@ -12,7 +12,7 @@ function makeGrid() {
     var grid = $('#pixelCanvas');
 
     grid.empty();
-    grid.append('<tbody></tbody>');
+    grid.append('<tbody></tbody>'); // Need a tbody for the selector on line 25 to work.
 
     for (var i = 0; i < rows; i++) {
         var trHtml = '<tr>';
